@@ -5,10 +5,11 @@ It runs within the ODL controller and provides a simple RESTful API for using.
 ## Bundle configuration
 Bean and RPC service is implemented throught Blueprint, a dependency injection framework designed specifically for use in an OSGi container.
 
+
 ## How to build and run
 
-    # git clone https://github.com/siwind/hello-odl-boron.git
-    # cd hello-odl-boron
+    # git clone https://github.com/siwind/hello-boron.git
+    # cd hello-boron
     # mvn clean install
     # ./karaf/target/assembly/bin/karaf
 
