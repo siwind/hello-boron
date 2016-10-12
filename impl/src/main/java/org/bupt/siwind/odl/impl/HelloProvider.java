@@ -23,7 +23,7 @@ public class HelloProvider {
 
 	private RpcRegistration<HelloService> helloService = null;
 
-	public HelloProvider(final DataBroker dataBroker, RpcProviderRegistry rpcRegistry) {
+	public HelloProvider(final DataBroker dataBroker, final RpcProviderRegistry rpcRegistry) {
 		this.dataBroker = dataBroker;
 		this.rpcRegistry = rpcRegistry;
 	}
